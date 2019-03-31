@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  height: 100%;
+  min-width: 708px;
+}
+
+h3 {
+  font-size: 175%;
+  line-height: 155%;
+  padding-left: 5% 0;
+  font-weight: 400;
+}
+
+/*Dropdown Styling*/
+nav {
+  position: relative;
+  z-index: 99;
+  background: linear-gradient(#454a54, #242528);
+  width: 100%;
+  min-width: 650px;
+  height: 60px;
+}
+
+nav p{
+  padding: 0px 25px;
+  font-family: arial;
+  color: #af4631;
+  font-size: 22px;
+  line-height: 55px;
+  float: left;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+   display: block;
+   font-family: arial;
+   color: #af4631;
+   font-size: 14px;
+   padding: 22px 14px;
+}
+
+nav ul li:hover{
+  background-color: white;
+}
+
+nav ul li a:hover {
+  background-color: #f3f3f3;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+nav ul li ul li ul li {
+  display: none;
+  background-color: white;
+}
+
+nav ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+nav ul li ul li:hover ul li {
+  display: block;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul li ul li {
+  width: 180px;
+}
+
+nav ul li ul li a{
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover{
+  background-color: #f3f3f3;
+}
+/*******************************/
+
+#page {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*Transparent Background*/
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://www.portrichmondhs.org/pics/watermark.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-width: 780px;
+}
+
+/*SLideShow*/
+#slideshow-back {
+  position: relative;
+  background: white;
+}
+
+#slideshow-inner {
+  position: relative;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#slideshow-inner img {
+  vertical-align: bottom;
+}
+
+/*Quick Links*/
+#one-third-inner {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  background: white;
+}
+
+.one-third {
+  position: relative;
+  width: 33.33333%;
+  height: 145px;
+  float: left;
+  text-align: center;
+  z-index: 98;
+  top: 0;
+  opacity: 0.9;
+}
+
+#maker {
+  background-image: url('https://3.files.edl.io/cc8b/17/09/29/170851-211e2718-dc8f-42d4-af0c-3e25d1363117.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#maker:hover {
+  opacity: 1;
+}
+
+#bax {
+  background-color: orange;
+}
+
+#bax:hover {
+  opacity: 1;
+}
+
+#soon {
+  background-color: purple;
+}
+
+#soon:hover {
+  opacity: 1;
+}
+/******************/
+
+/*Label*/
+#label-inner {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #FF0400;
+}
+
+.label {
+  background-image: url(img/Minds.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  max-width: 100%;
+  height: 100px;
+  opacity: 0.6;
+}
+
+/*Break*/
+#break {
+  width: 100%;
+  height: 400px;
+}
+/*Testimonials*/
+.aside-inner {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  z-index: 90;
+  opacity: 0.7;
+}
+
+.row2 {
+  height: 250px;
+  opacity: 0.7;
+}
+
+.image {
+  width: 50%;
+  height: 250px;
+  background-color: #f3f3f3;
+  float: left;
+}
+
+.speech {
+  width: 50%;
+  height: 250px;
+  background-color: #d3d3d3;
+  float: left;
+}
+
+.row1 p {
+  text-align: justify;
+  text-align-last: center;
+  line-height: 35px;
+  padding: 0 10%;
+  margin: 0 25px;
+}
